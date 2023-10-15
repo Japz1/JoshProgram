@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Pertanyaan kematian</title>
+  </head>
+  <body>
+    <a href="https://www.joshua.com">Teks Tautan</a>
+    <h1>Mau ga jadi pacarku?</h1>
+    <button onclick="jawab('iya')">Iya</button>
+    <button onclick="jawab('enggak')">enggak</button>
+
+    <script>
+      function jawab(jawaban) {
+        if (jawaban === "iya") {
+          alert("Eakk ntar malem jalan yak<333333");
+          window.close();
+        } else if (jawaban === "enggak") {
+          // Program akan terus bertanya
+          alert("Ihh harus mauuuuu.");
+        } else {
+          alert("Kok ga milih sih:(");
+        }
+      }
+    </script>
+  </body>
+</html>
